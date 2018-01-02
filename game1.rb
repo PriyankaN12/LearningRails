@@ -9,8 +9,8 @@ got_it=false
 while turns>0 and ! got_it
 	puts "You have #{turns} guesses left"
 	print "\nEnter your guess"
-	guess=gets
-	guess=guess.to_i
+	guess=gets.to_1
+	#guess=guess.to_i
 
 	if guess==i 
 		puts "Good job #{name}! You guessed my number in #{10-turns} guesses"
